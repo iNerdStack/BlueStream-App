@@ -41,7 +41,7 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    public static final String URL_DATA = "http://192.168.42.181/flepblog/public/";
+    public static final String URL_DATA = "https://YOURURL.COM";
 
     private SearchView searchView = null;
     private SearchView.OnQueryTextListener queryTextListener;
