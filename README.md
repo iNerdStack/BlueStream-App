@@ -20,7 +20,7 @@ BlueStream app is an app project for bluestream blog developed in Java. The webs
 ```
 
 3. Save file and build project.
-4. Your app is ready, you can change anndroid package name, adjust layout and UI. Enjoy.
+4. Your app is ready, you can change android package name, adjust layout and UI. Enjoy.
 
 ## 📄 License
 
