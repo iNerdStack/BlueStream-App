@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/CategoryListLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:padding="6dp"
+    android:layout_margin="3dp"
+    android:background="#ffff"
+    android:longClickable="true"
+    tools:ignore="RtlHardcoded"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/CategoryList_image"
+        tools:background="#ddd"/>
+
+    <TextView
+        android:id="@+id/CategoryListheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/CategoryList_image"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:text="Sandra Adams"/>
+
+    <TextView
+        android:id="@+id/CategoryListcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/CategoryListheader"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/CategoryList_image"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at augue et dolor aliquet malesuada at ut neque."/>
+</RelativeLayout>
