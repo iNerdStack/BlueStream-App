@@ -1,7 +1,7 @@
 
 # BlueStream App
 
-BlueStream app is an app project for bluestream blog developed in Java. The website is required for the app to operate. Click [here](https://github.com/iNerdStack/BlueStream) to go to website project.
+BlueStream is an app project for bluestream blog developed in Java. The website is required for the app to operate. Click [here](https://github.com/iNerdStack/BlueStream) to go to website project.
 
 ![Bluestream Framework](https://i.imgur.com/mCguHcR.jpeg)
 ## Requirements
